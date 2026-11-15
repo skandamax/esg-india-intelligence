@@ -1,0 +1,370 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Company ESG Profile | ESG India Intelligence</title>
+<style>
+*{box-sizing:border-box}
+body{margin:0;background:#f3f6fa;color:#17283b;
+font:15px/1.6 Arial,sans-serif}
+header{background:#10273e;color:white;padding:22px 5%}
+header a{color:#a6f0d6;margin-right:18px}
+main{max-width:1000px;margin:auto;padding:20px 15px}
+section,.hero{background:white;border:1px solid #dce4eb;
+border-radius:13px;padding:22px;margin:16px 0}
+h1{font-size:30px;margin:8px 0}
+h2{color:#123d56;font-size:21px}
+.muted{color:#64748b}
+.badge{display:inline-block;background:#fff0d4;
+color:#815300;padding:5px 11px;border-radius:20px;font-size:12px}
+.tablebox{overflow-x:auto}
+table{width:100%;border-collapse:collapse;min-width:500px}
+th,td{padding:12px;text-align:left;
+border-bottom:1px solid #e2e8f0;vertical-align:top}
+th{background:#eff4f8}
+a{color:#087f65}
+.note{background:#edf5fa;padding:13px;border-radius:8px}
+footer{text-align:center;color:#64748b;padding:30px}
+</style>
+</head>
+<body>
+
+<header>
+<strong>ESG India Intelligence</strong>
+<p>
+<a href="index.html">Home</a>
+<a href="companies.html">Companies</a>
+</p>
+</header>
+
+<main>
+<div class="hero">
+<span class="badge">FY 2024–25 · Research draft</span>
+<h1 id="name">Company ESG Profile</h1>
+<p id="identity" class="muted"></p>
+<p>
+Independent ESG research covering carbon emissions,
+energy, social responsibility, corporate governance
+and climate risk.
+</p>
+<p class="muted">
+Data is preliminary. Reporting boundaries and
+source pages require final verification.
+</p>
+</div>
+
+<div id="profile"></div>
+
+<section>
+<h2>Official source documents</h2>
+<div id="sources"></div>
+</section>
+
+<section>
+<h2>Research methodology</h2>
+<p>
+Figures are drawn from company disclosures.
+Missing indicators are marked Pending verification.
+They are never assumed to be zero.
+</p>
+<p>
+Climate-risk disclosures are not equivalent
+to independently quantified climate losses.
+No ESG score is assigned at this stage.
+</p>
+</section>
+</main>
+
+<footer>
+ESG India Intelligence — Independent ESG Research
+</footer>
+
+<script>
+const companies = {
+
+"reliance":{
+name:"Reliance Industries",
+symbol:"RELIANCE",
+sector:"Diversified / Energy",
+data:[
+[
+["Scope 1 + 2 emissions, O2C and E&P",
+"45.76 million tCO2e",
+"Natural Capital, GHG emissions table"]
+],
+[
+["Total energy, O2C and E&P",
+"522 million GJ",
+"Natural Capital, energy efficiency"],
+["Renewable energy, O2C and E&P",
+"5.4 million GJ",
+"Natural Capital, energy efficiency"]
+],
+[
+["Employee diversity and turnover",
+"Pending verification","FY25 BRSR"]
+],
+[
+["Board independence and diversity",
+"Pending verification","FY25 Annual Report"]
+],
+[
+["Net Carbon Zero ambition",
+"2035 target year","Natural Capital"],
+["Quantified climate financial losses",
+"Pending verification","Climate disclosures"]
+]
+],
+sources:[
+["Reliance FY25 Natural Capital",
+"https://www.ril.com/ar2024-25/natural-capital.html"]
+]
+},
+
+"bharti-airtel":{
+name:"Bharti Airtel",
+symbol:"BHARTIARTL",
+sector:"Telecommunications",
+data:[
+[
+["Scope 1 emissions","74,559 tCO2e",
+"FY25 Integrated Report; page pending"],
+["Scope 2 emissions","1,027,690 tCO2e",
+"FY25 Integrated Report; page pending"]
+],
+[
+["Renewable electricity","260,737 MWh",
+"FY25 Integrated Report; page pending"],
+["Grid electricity","1,413,604 MWh",
+"FY25 Integrated Report; page pending"]
+],
+[
+["Workforce diversity and safety",
+"Pending verification","FY25 Integrated Report"]
+],
+[
+["Board independence",
+"Pending verification","FY25 Integrated Report"]
+],
+[
+["Climate scenario analysis",
+"Pending verification","FY25 Integrated Report"],
+["Climate-related financial exposure",
+"Pending verification","FY25 Integrated Report"]
+]
+],
+sources:[
+["Bharti Airtel FY25 Integrated Report",
+"https://www.airtel.in/airtel-annual-report-2024-25/pdf/Bharti%20Airtel%20IAR%202024-25.pdf"]
+]
+},
+
+"hdfc-bank":{
+name:"HDFC Bank",
+symbol:"HDFCBANK",
+sector:"Banking",
+data:[
+[
+["Scope 1 emissions","77,999.50 tCO2e",
+"Annual Report, printed p.123"],
+["Scope 2, market-based","284,877.91 tCO2e",
+"Annual Report, printed p.123"],
+["Scope 1 + 2 intensity",
+"1.05 tCO2e / INR crore revenue",
+"BRSR, PDF p.558; verify definition"]
+],
+[
+["Total energy consumption",
+"Pending verification","FY25 BRSR"],
+["Water consumption",
+"Pending verification","FY25 BRSR"]
+],
+[
+["Employee diversity and attrition",
+"Pending verification","People section"]
+],
+[
+["Board independence",
+"Pending verification","Corporate Governance"]
+],
+[
+["ESG lending risk framework",
+"Reported qualitatively",
+"Annual Report, pp.115,129–133"],
+["Retail natural-catastrophe mapping",
+"Exploratory assessment",
+"Annual Report, p.133"],
+["Quantified climate credit losses",
+"Pending verification","Climate disclosures"]
+]
+],
+sources:[
+["HDFC Bank FY25 Annual Report",
+"https://www.hdfc.bank.in/content/dam/hdfcbankpws/in/en/pdf/ESG/Reports/HDFC_Bank_Annual_Report_2024_25-310202.pdf"]
+]
+},
+
+"icici-bank":{
+name:"ICICI Bank",
+symbol:"ICICIBANK",
+sector:"Banking",
+data:[
+[
+["Scope 1 emissions",
+"Pending verification","FY25 BRSR"],
+["Scope 2 emissions",
+"Pending verification","FY25 BRSR"],
+["Scope 3 emissions",
+"133,459 tCO2e — source audit pending",
+"FY25 ESG Report"]
+],
+[
+["Renewable energy consumption",
+"92.13 million kWh — source audit pending",
+"FY25 ESG disclosure"],
+["Total water consumption",
+"Pending verification","FY25 BRSR"]
+],
+[
+["Workforce diversity and safety",
+"Pending verification","FY25 BRSR"]
+],
+[
+["Board composition",
+"Pending verification","FY25 Annual Report"]
+],
+[
+["Climate scenario analysis",
+"Pending verification","FY25 ESG disclosures"],
+["Climate financial exposure",
+"Pending verification","FY25 ESG disclosures"]
+]
+],
+sources:[
+["ICICI Bank FY25 Reporting Library",
+"https://www.icici.bank.in/about-us/annual/2025"]
+]
+},
+
+"sbi":{
+name:"State Bank of India",
+symbol:"SBIN",
+sector:"Banking",
+data:[
+[
+["Scope 1 emissions",
+"49,583 tCO2e — recheck required",
+"FY25 Sustainability Report, p.235"],
+["Scope 2 emissions",
+"656,819 tCO2e — recheck required",
+"FY25 Sustainability Report, p.235"]
+],
+[
+["Total energy consumption",
+"Pending verification","FY25 Sustainability Report"],
+["Water consumption",
+"Pending verification","FY25 Sustainability Report"]
+],
+[
+["Workforce diversity and safety",
+"Pending verification","FY25 Sustainability Report"]
+],
+[
+["Board independence",
+"Pending verification","FY25 Annual Report"]
+],
+[
+["Climate scenario analysis",
+"Pending verification","FY25 Sustainability Report"],
+["Quantified climate credit losses",
+"Pending verification","FY25 Sustainability Report"]
+]
+],
+sources:[
+["SBI FY25 Sustainability Report",
+"https://sbi.co.in/documents/17826/0/Sustainability%2BReport%2BFY%2B2024-25.pdf/600d0a64-b30b-c23e-7b71-5cb1e3fbb299?t=1751026510426"]
+]
+}
+
+};
+
+const params=new URLSearchParams(location.search);
+const key=params.get("id") || "reliance";
+const company=companies[key];
+
+if(!company){
+ document.getElementById("name").textContent=
+ "Company not found";
+ document.getElementById("identity").textContent=
+ "Select a valid company from the directory.";
+}else{
+ document.title=company.name+" ESG | ESG India Intelligence";
+ document.getElementById("name").textContent=company.name;
+ document.getElementById("identity").textContent=
+ "NSE: "+company.symbol+" | "+company.sector;
+
+ const pillars=[
+ "1. Carbon Emissions",
+ "2. Energy and Resource Efficiency",
+ "3. Social Responsibility",
+ "4. Corporate Governance",
+ "5. Climate Risk and Resilience"
+ ];
+
+ const root=document.getElementById("profile");
+
+ company.data.forEach((rows,index)=>{
+   const section=document.createElement("section");
+   const heading=document.createElement("h2");
+   heading.textContent=pillars[index];
+   section.appendChild(heading);
+
+   const wrap=document.createElement("div");
+   wrap.className="tablebox";
+   const table=document.createElement("table");
+
+   const thead=document.createElement("thead");
+   const headerRow=document.createElement("tr");
+   ["Indicator","FY 2024–25 value / status",
+    "Source reference"].forEach(label=>{
+     const th=document.createElement("th");
+     th.textContent=label;
+     headerRow.appendChild(th);
+   });
+   thead.appendChild(headerRow);
+   table.appendChild(thead);
+
+   const tbody=document.createElement("tbody");
+   rows.forEach(row=>{
+     const tr=document.createElement("tr");
+     row.forEach(value=>{
+       const td=document.createElement("td");
+       td.textContent=value;
+       tr.appendChild(td);
+     });
+     tbody.appendChild(tr);
+   });
+   table.appendChild(tbody);
+   wrap.appendChild(table);
+   section.appendChild(wrap);
+   root.appendChild(section);
+ });
+
+ const sources=document.getElementById("sources");
+ company.sources.forEach(source=>{
+   const p=document.createElement("p");
+   const a=document.createElement("a");
+   a.href=source[1];
+   a.textContent=source[0];
+   a.target="_blank";
+   a.rel="noopener noreferrer";
+   p.appendChild(a);
+   sources.appendChild(p);
+ });
+}
+</script>
+</body>
+  </html>
+  
