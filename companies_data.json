@@ -1,0 +1,1200 @@
+[
+  {
+    "id": "reliance-industries",
+    "name": "Reliance Industries",
+    "symbol": "RELIANCE",
+    "rank": 1,
+    "sector": "Sector pending verification",
+    "metrics": {
+      "carbon": [
+        [
+          "Scope 1 + 2 (O2C and E&P)",
+          "45.76 million tCO₂e",
+          "FY25 Natural Capital; boundary-specific"
+        ]
+      ],
+      "energy": [
+        [
+          "Energy consumption (O2C and E&P)",
+          "522 million GJ",
+          "FY25 Natural Capital"
+        ],
+        [
+          "Renewable energy (O2C and E&P)",
+          "5.4 million GJ",
+          "FY25 Natural Capital"
+        ]
+      ],
+      "climate": [
+        [
+          "Net carbon zero ambition",
+          "2035",
+          "FY25 Natural Capital"
+        ]
+      ]
+    },
+    "sources": [
+      [
+        "FY25 Natural Capital",
+        "https://www.ril.com/ar2024-25/natural-capital.html"
+      ]
+    ],
+    "notes": "Figures are preliminary and reporting boundaries require verification."
+  },
+  {
+    "id": "bharti-airtel",
+    "name": "Bharti Airtel",
+    "symbol": "BHARTIARTL",
+    "rank": 2,
+    "sector": "Sector pending verification",
+    "metrics": {
+      "carbon": [
+        [
+          "Scope 1",
+          "74,559 tCO₂e",
+          "FY25 Integrated Report; verify boundary"
+        ],
+        [
+          "Scope 2",
+          "1,027,690 tCO₂e",
+          "FY25 Integrated Report; verify boundary"
+        ]
+      ],
+      "energy": [
+        [
+          "Renewable electricity",
+          "260,737 MWh",
+          "FY25 Integrated Report"
+        ],
+        [
+          "Grid electricity",
+          "1,413,604 MWh",
+          "FY25 Integrated Report"
+        ]
+      ]
+    },
+    "sources": [
+      [
+        "FY25 Integrated Report",
+        "https://www.airtel.in/airtel-annual-report-2024-25/pdf/Bharti%20Airtel%20IAR%202024-25.pdf"
+      ]
+    ],
+    "notes": "Figures are preliminary and reporting boundaries require verification."
+  },
+  {
+    "id": "jio-platforms",
+    "name": "Jio Platforms",
+    "symbol": "JPL",
+    "rank": 3,
+    "sector": "Sector pending verification",
+    "metrics": {},
+    "sources": [],
+    "notes": "FY2024–25 ESG indicators are awaiting individual source verification."
+  },
+  {
+    "id": "hdfc-bank",
+    "name": "HDFC Bank",
+    "symbol": "HDFCBANK",
+    "rank": 4,
+    "sector": "Sector pending verification",
+    "metrics": {
+      "carbon": [
+        [
+          "Scope 1",
+          "77,999.50 tCO₂e",
+          "FY25 Annual Report p.123"
+        ],
+        [
+          "Scope 2",
+          "284,877.91 tCO₂e",
+          "FY25 Annual Report p.123"
+        ],
+        [
+          "Scope 3 (selected categories)",
+          "230,310.04 tCO₂e",
+          "FY25 Annual Report; excludes comprehensive financed emissions"
+        ]
+      ],
+      "climate": [
+        [
+          "ESG lending risk framework",
+          "Qualitatively disclosed",
+          "FY25 Annual Report"
+        ],
+        [
+          "Retail natural catastrophe mapping",
+          "Exploratory assessment",
+          "FY25 Annual Report"
+        ]
+      ]
+    },
+    "sources": [
+      [
+        "FY25 Annual Report",
+        "https://www.hdfc.bank.in/content/dam/hdfcbankpws/in/en/pdf/ESG/Reports/HDFC_Bank_Annual_Report_2024_25-310202.pdf"
+      ]
+    ],
+    "notes": "Figures are preliminary and reporting boundaries require verification."
+  },
+  {
+    "id": "icici-bank",
+    "name": "ICICI Bank",
+    "symbol": "ICICIBANK",
+    "rank": 5,
+    "sector": "Sector pending verification",
+    "metrics": {
+      "carbon": [
+        [
+          "Scope 3 (selected categories)",
+          "133,459 tCO₂e — verify",
+          "FY25 ESG disclosure; source audit pending"
+        ]
+      ],
+      "energy": [
+        [
+          "Renewable energy",
+          "92.13 million kWh — verify",
+          "FY25 environmental disclosure; source audit pending"
+        ]
+      ]
+    },
+    "sources": [
+      [
+        "FY25 reporting library",
+        "https://www.icici.bank.in/about-us/annual/2025"
+      ]
+    ],
+    "notes": "Figures are preliminary and reporting boundaries require verification."
+  },
+  {
+    "id": "state-bank-of-india",
+    "name": "State Bank of India",
+    "symbol": "SBIN",
+    "rank": 6,
+    "sector": "Sector pending verification",
+    "metrics": {
+      "carbon": [
+        [
+          "Scope 1",
+          "49,583 tCO₂e — verify",
+          "FY25 Sustainability Report p.235"
+        ],
+        [
+          "Scope 2",
+          "656,819 tCO₂e — verify",
+          "FY25 Sustainability Report p.235"
+        ]
+      ]
+    },
+    "sources": [
+      [
+        "FY25 Sustainability Report",
+        "https://sbi.co.in/documents/17826/0/Sustainability%2BReport%2BFY%2B2024-25.pdf/600d0a64-b30b-c23e-7b71-5cb1e3fbb299?t=1751026510426"
+      ]
+    ],
+    "notes": "Figures are preliminary and reporting boundaries require verification."
+  },
+  {
+    "id": "tata-consultancy-services",
+    "name": "Tata Consultancy Services",
+    "symbol": "TCS",
+    "rank": 7,
+    "sector": "Sector pending verification",
+    "metrics": {},
+    "sources": [],
+    "notes": "FY2024–25 ESG indicators are awaiting individual source verification."
+  },
+  {
+    "id": "bajaj-finance",
+    "name": "Bajaj Finance",
+    "symbol": "BAJFINANCE",
+    "rank": 8,
+    "sector": "Sector pending verification",
+    "metrics": {},
+    "sources": [],
+    "notes": "FY2024–25 ESG indicators are awaiting individual source verification."
+  },
+  {
+    "id": "larsen-toubro",
+    "name": "Larsen & Toubro",
+    "symbol": "LT",
+    "rank": 9,
+    "sector": "Sector pending verification",
+    "metrics": {},
+    "sources": [],
+    "notes": "FY2024–25 ESG indicators are awaiting individual source verification."
+  },
+  {
+    "id": "life-insurance-corporation-of-india",
+    "name": "Life Insurance Corporation of India",
+    "symbol": "LICI",
+    "rank": 10,
+    "sector": "Sector pending verification",
+    "metrics": {},
+    "sources": [],
+    "notes": "FY2024–25 ESG indicators are awaiting individual source verification."
+  },
+  {
+    "id": "kotak-mahindra-bank",
+    "name": "Kotak Mahindra Bank",
+    "symbol": "KOTAKBANK",
+    "rank": 11,
+    "sector": "Sector pending verification",
+    "metrics": {},
+    "sources": [],
+    "notes": "FY2024–25 ESG indicators are awaiting individual source verification."
+  },
+  {
+    "id": "hindustan-unilever",
+    "name": "Hindustan Unilever",
+    "symbol": "HINDUNILVR",
+    "rank": 12,
+    "sector": "Sector pending verification",
+    "metrics": {},
+    "sources": [],
+    "notes": "FY2024–25 ESG indicators are awaiting individual source verification."
+  },
+  {
+    "id": "infosys",
+    "name": "Infosys",
+    "symbol": "INFY",
+    "rank": 13,
+    "sector": "Sector pending verification",
+    "metrics": {
+      "carbon": [
+        [
+          "Scope 1",
+          "8,745 tCO₂e",
+          "FY25 ESG Databook p.25"
+        ],
+        [
+          "Scope 2",
+          "38,586 tCO₂e",
+          "FY25 ESG Databook p.25"
+        ],
+        [
+          "Scope 3",
+          "179,370 tCO₂e",
+          "FY25 ESG Databook p.25"
+        ]
+      ],
+      "energy": [
+        [
+          "Total energy",
+          "850,434 GJ",
+          "FY25 BRSR p.189"
+        ],
+        [
+          "Renewable energy",
+          "585,702 GJ",
+          "FY25 BRSR p.189"
+        ],
+        [
+          "Water withdrawal",
+          "2,085,580 kL",
+          "FY25 BRSR p.190"
+        ]
+      ],
+      "social": [
+        [
+          "Employees",
+          "323,578",
+          "FY25 BRSR"
+        ],
+        [
+          "Women in workforce",
+          "39%",
+          "FY25 BRSR"
+        ]
+      ],
+      "governance": [
+        [
+          "Women on board",
+          "22.22%",
+          "FY25 governance disclosure"
+        ]
+      ]
+    },
+    "sources": [
+      [
+        "FY25 ESG Databook",
+        "https://www.infosys.com/sustainability/documents/infosys-esg-databook-2024-25.pdf"
+      ],
+      [
+        "FY25 BRSR",
+        "https://www.infosys.com/investors/reports-filings/annual-report/annual/documents/2024-25/business-responsibility-and-sustainability-report.pdf"
+      ]
+    ],
+    "notes": "Previously researched; source-page and boundary audit still required."
+  },
+  {
+    "id": "sun-pharmaceutical-industries",
+    "name": "Sun Pharmaceutical Industries",
+    "symbol": "SUNPHARMA",
+    "rank": 14,
+    "sector": "Sector pending verification",
+    "metrics": {},
+    "sources": [],
+    "notes": "FY2024–25 ESG indicators are awaiting individual source verification."
+  },
+  {
+    "id": "adani-ports-and-sez",
+    "name": "Adani Ports and SEZ",
+    "symbol": "ADANIPORTS",
+    "rank": 15,
+    "sector": "Sector pending verification",
+    "metrics": {},
+    "sources": [],
+    "notes": "FY2024–25 ESG indicators are awaiting individual source verification."
+  },
+  {
+    "id": "titan-company",
+    "name": "Titan Company",
+    "symbol": "TITAN",
+    "rank": 16,
+    "sector": "Sector pending verification",
+    "metrics": {},
+    "sources": [],
+    "notes": "FY2024–25 ESG indicators are awaiting individual source verification."
+  },
+  {
+    "id": "axis-bank",
+    "name": "Axis Bank",
+    "symbol": "AXISBANK",
+    "rank": 17,
+    "sector": "Sector pending verification",
+    "metrics": {},
+    "sources": [],
+    "notes": "FY2024–25 ESG indicators are awaiting individual source verification."
+  },
+  {
+    "id": "maruti-suzuki-india",
+    "name": "Maruti Suzuki India",
+    "symbol": "MARUTI",
+    "rank": 18,
+    "sector": "Sector pending verification",
+    "metrics": {},
+    "sources": [],
+    "notes": "FY2024–25 ESG indicators are awaiting individual source verification."
+  },
+  {
+    "id": "mahindra-mahindra",
+    "name": "Mahindra & Mahindra",
+    "symbol": "M&M",
+    "rank": 19,
+    "sector": "Sector pending verification",
+    "metrics": {},
+    "sources": [],
+    "notes": "FY2024–25 ESG indicators are awaiting individual source verification."
+  },
+  {
+    "id": "adani-power",
+    "name": "Adani Power",
+    "symbol": "ADANIPOWER",
+    "rank": 20,
+    "sector": "Sector pending verification",
+    "metrics": {},
+    "sources": [],
+    "notes": "FY2024–25 ESG indicators are awaiting individual source verification."
+  },
+  {
+    "id": "hcl-technologies",
+    "name": "HCL Technologies",
+    "symbol": "HCLTECH",
+    "rank": 21,
+    "sector": "Sector pending verification",
+    "metrics": {},
+    "sources": [],
+    "notes": "FY2024–25 ESG indicators are awaiting individual source verification."
+  },
+  {
+    "id": "adani-enterprises",
+    "name": "Adani Enterprises",
+    "symbol": "ADANIENT",
+    "rank": 22,
+    "sector": "Sector pending verification",
+    "metrics": {},
+    "sources": [],
+    "notes": "FY2024–25 ESG indicators are awaiting individual source verification."
+  },
+  {
+    "id": "itc",
+    "name": "ITC",
+    "symbol": "ITC",
+    "rank": 23,
+    "sector": "Sector pending verification",
+    "metrics": {},
+    "sources": [],
+    "notes": "FY2024–25 ESG indicators are awaiting individual source verification."
+  },
+  {
+    "id": "ultratech-cement",
+    "name": "UltraTech Cement",
+    "symbol": "ULTRACEMCO",
+    "rank": 24,
+    "sector": "Sector pending verification",
+    "metrics": {},
+    "sources": [],
+    "notes": "FY2024–25 ESG indicators are awaiting individual source verification."
+  },
+  {
+    "id": "eternal",
+    "name": "Eternal",
+    "symbol": "ETERNAL",
+    "rank": 25,
+    "sector": "Sector pending verification",
+    "metrics": {},
+    "sources": [],
+    "notes": "FY2024–25 ESG indicators are awaiting individual source verification."
+  },
+  {
+    "id": "jsw-steel",
+    "name": "JSW Steel",
+    "symbol": "JSWSTEEL",
+    "rank": 26,
+    "sector": "Sector pending verification",
+    "metrics": {},
+    "sources": [],
+    "notes": "FY2024–25 ESG indicators are awaiting individual source verification."
+  },
+  {
+    "id": "hindustan-aeronautics",
+    "name": "Hindustan Aeronautics",
+    "symbol": "HAL",
+    "rank": 27,
+    "sector": "Sector pending verification",
+    "metrics": {},
+    "sources": [],
+    "notes": "FY2024–25 ESG indicators are awaiting individual source verification."
+  },
+  {
+    "id": "ntpc",
+    "name": "NTPC",
+    "symbol": "NTPC",
+    "rank": 28,
+    "sector": "Sector pending verification",
+    "metrics": {},
+    "sources": [],
+    "notes": "FY2024–25 ESG indicators are awaiting individual source verification."
+  },
+  {
+    "id": "divis-laboratories",
+    "name": "Divis Laboratories",
+    "symbol": "DIVISLAB",
+    "rank": 29,
+    "sector": "Sector pending verification",
+    "metrics": {},
+    "sources": [],
+    "notes": "FY2024–25 ESG indicators are awaiting individual source verification."
+  },
+  {
+    "id": "bajaj-finserv",
+    "name": "Bajaj Finserv",
+    "symbol": "BAJAJFINSV",
+    "rank": 30,
+    "sector": "Sector pending verification",
+    "metrics": {},
+    "sources": [],
+    "notes": "FY2024–25 ESG indicators are awaiting individual source verification."
+  },
+  {
+    "id": "bajaj-auto",
+    "name": "Bajaj Auto",
+    "symbol": "BAJAJ-AUTO",
+    "rank": 31,
+    "sector": "Sector pending verification",
+    "metrics": {},
+    "sources": [],
+    "notes": "FY2024–25 ESG indicators are awaiting individual source verification."
+  },
+  {
+    "id": "bharat-electronics",
+    "name": "Bharat Electronics",
+    "symbol": "BEL",
+    "rank": 32,
+    "sector": "Sector pending verification",
+    "metrics": {},
+    "sources": [],
+    "notes": "FY2024–25 ESG indicators are awaiting individual source verification."
+  },
+  {
+    "id": "oil-and-natural-gas-corporation",
+    "name": "Oil and Natural Gas Corporation",
+    "symbol": "ONGC",
+    "rank": 33,
+    "sector": "Sector pending verification",
+    "metrics": {},
+    "sources": [],
+    "notes": "FY2024–25 ESG indicators are awaiting individual source verification."
+  },
+  {
+    "id": "coal-india",
+    "name": "Coal India",
+    "symbol": "COALINDIA",
+    "rank": 34,
+    "sector": "Sector pending verification",
+    "metrics": {},
+    "sources": [],
+    "notes": "FY2024–25 ESG indicators are awaiting individual source verification."
+  },
+  {
+    "id": "asian-paints",
+    "name": "Asian Paints",
+    "symbol": "ASIANPAINT",
+    "rank": 35,
+    "sector": "Sector pending verification",
+    "metrics": {},
+    "sources": [],
+    "notes": "FY2024–25 ESG indicators are awaiting individual source verification."
+  },
+  {
+    "id": "nestle-india",
+    "name": "Nestle India",
+    "symbol": "NESTLEIND",
+    "rank": 36,
+    "sector": "Sector pending verification",
+    "metrics": {},
+    "sources": [],
+    "notes": "FY2024–25 ESG indicators are awaiting individual source verification."
+  },
+  {
+    "id": "power-grid-corporation",
+    "name": "Power Grid Corporation",
+    "symbol": "POWERGRID",
+    "rank": 37,
+    "sector": "Sector pending verification",
+    "metrics": {},
+    "sources": [],
+    "notes": "FY2024–25 ESG indicators are awaiting individual source verification."
+  },
+  {
+    "id": "hindustan-zinc",
+    "name": "Hindustan Zinc",
+    "symbol": "HINDZINC",
+    "rank": 38,
+    "sector": "Sector pending verification",
+    "metrics": {},
+    "sources": [],
+    "notes": "FY2024–25 ESG indicators are awaiting individual source verification."
+  },
+  {
+    "id": "tata-steel",
+    "name": "Tata Steel",
+    "symbol": "TATASTEEL",
+    "rank": 39,
+    "sector": "Sector pending verification",
+    "metrics": {},
+    "sources": [],
+    "notes": "FY2024–25 ESG indicators are awaiting individual source verification."
+  },
+  {
+    "id": "adani-green-energy",
+    "name": "Adani Green Energy",
+    "symbol": "ADANIGREEN",
+    "rank": 40,
+    "sector": "Sector pending verification",
+    "metrics": {},
+    "sources": [],
+    "notes": "FY2024–25 ESG indicators are awaiting individual source verification."
+  },
+  {
+    "id": "shriram-finance",
+    "name": "Shriram Finance",
+    "symbol": "SHRIRAMFIN",
+    "rank": 41,
+    "sector": "Sector pending verification",
+    "metrics": {},
+    "sources": [],
+    "notes": "FY2024–25 ESG indicators are awaiting individual source verification."
+  },
+  {
+    "id": "avenue-supermarts",
+    "name": "Avenue Supermarts",
+    "symbol": "DMART",
+    "rank": 42,
+    "sector": "Sector pending verification",
+    "metrics": {},
+    "sources": [],
+    "notes": "FY2024–25 ESG indicators are awaiting individual source verification."
+  },
+  {
+    "id": "interglobe-aviation",
+    "name": "InterGlobe Aviation",
+    "symbol": "INDIGO",
+    "rank": 43,
+    "sector": "Sector pending verification",
+    "metrics": {},
+    "sources": [],
+    "notes": "FY2024–25 ESG indicators are awaiting individual source verification."
+  },
+  {
+    "id": "tvs-motor",
+    "name": "TVS Motor",
+    "symbol": "TVSMOTOR",
+    "rank": 44,
+    "sector": "Sector pending verification",
+    "metrics": {},
+    "sources": [],
+    "notes": "FY2024–25 ESG indicators are awaiting individual source verification."
+  },
+  {
+    "id": "hindalco-industries",
+    "name": "Hindalco Industries",
+    "symbol": "HINDALCO",
+    "rank": 45,
+    "sector": "Sector pending verification",
+    "metrics": {},
+    "sources": [],
+    "notes": "FY2024–25 ESG indicators are awaiting individual source verification."
+  },
+  {
+    "id": "eicher-motors",
+    "name": "Eicher Motors",
+    "symbol": "EICHERMOT",
+    "rank": 46,
+    "sector": "Sector pending verification",
+    "metrics": {},
+    "sources": [],
+    "notes": "FY2024–25 ESG indicators are awaiting individual source verification."
+  },
+  {
+    "id": "grasim-industries",
+    "name": "Grasim Industries",
+    "symbol": "GRASIM",
+    "rank": 47,
+    "sector": "Sector pending verification",
+    "metrics": {},
+    "sources": [],
+    "notes": "FY2024–25 ESG indicators are awaiting individual source verification."
+  },
+  {
+    "id": "indian-oil-corporation",
+    "name": "Indian Oil Corporation",
+    "symbol": "IOC",
+    "rank": 48,
+    "sector": "Sector pending verification",
+    "metrics": {},
+    "sources": [],
+    "notes": "FY2024–25 ESG indicators are awaiting individual source verification."
+  },
+  {
+    "id": "wipro",
+    "name": "Wipro",
+    "symbol": "WIPRO",
+    "rank": 49,
+    "sector": "Sector pending verification",
+    "metrics": {},
+    "sources": [],
+    "notes": "FY2024–25 ESG indicators are awaiting individual source verification."
+  },
+  {
+    "id": "dlf",
+    "name": "DLF",
+    "symbol": "DLF",
+    "rank": 50,
+    "sector": "Sector pending verification",
+    "metrics": {},
+    "sources": [],
+    "notes": "FY2024–25 ESG indicators are awaiting individual source verification."
+  },
+  {
+    "id": "sbi-life-insurance",
+    "name": "SBI Life Insurance",
+    "symbol": "SBILIFE",
+    "rank": 51,
+    "sector": "Sector pending verification",
+    "metrics": {},
+    "sources": [],
+    "notes": "FY2024–25 ESG indicators are awaiting individual source verification."
+  },
+  {
+    "id": "torrent-pharmaceuticals",
+    "name": "Torrent Pharmaceuticals",
+    "symbol": "TORNTPHARM",
+    "rank": 52,
+    "sector": "Sector pending verification",
+    "metrics": {},
+    "sources": [],
+    "notes": "FY2024–25 ESG indicators are awaiting individual source verification."
+  },
+  {
+    "id": "adani-energy-solutions",
+    "name": "Adani Energy Solutions",
+    "symbol": "ADANIENSOL",
+    "rank": 53,
+    "sector": "Sector pending verification",
+    "metrics": {},
+    "sources": [],
+    "notes": "FY2024–25 ESG indicators are awaiting individual source verification."
+  },
+  {
+    "id": "samvardhana-motherson-international",
+    "name": "Samvardhana Motherson International",
+    "symbol": "MOTHERSON",
+    "rank": 54,
+    "sector": "Sector pending verification",
+    "metrics": {},
+    "sources": [],
+    "notes": "FY2024–25 ESG indicators are awaiting individual source verification."
+  },
+  {
+    "id": "solar-industries-india",
+    "name": "Solar Industries India",
+    "symbol": "SOLARINDS",
+    "rank": 55,
+    "sector": "Sector pending verification",
+    "metrics": {},
+    "sources": [],
+    "notes": "FY2024–25 ESG indicators are awaiting individual source verification."
+  },
+  {
+    "id": "tech-mahindra",
+    "name": "Tech Mahindra",
+    "symbol": "TECHM",
+    "rank": 56,
+    "sector": "Sector pending verification",
+    "metrics": {},
+    "sources": [],
+    "notes": "FY2024–25 ESG indicators are awaiting individual source verification."
+  },
+  {
+    "id": "trent",
+    "name": "Trent",
+    "symbol": "TRENT",
+    "rank": 57,
+    "sector": "Sector pending verification",
+    "metrics": {},
+    "sources": [],
+    "notes": "FY2024–25 ESG indicators are awaiting individual source verification."
+  },
+  {
+    "id": "hyundai-motor-india",
+    "name": "Hyundai Motor India",
+    "symbol": "HYUNDAI",
+    "rank": 58,
+    "sector": "Sector pending verification",
+    "metrics": {},
+    "sources": [],
+    "notes": "FY2024–25 ESG indicators are awaiting individual source verification."
+  },
+  {
+    "id": "punjab-national-bank",
+    "name": "Punjab National Bank",
+    "symbol": "PNB",
+    "rank": 59,
+    "sector": "Sector pending verification",
+    "metrics": {},
+    "sources": [],
+    "notes": "FY2024–25 ESG indicators are awaiting individual source verification."
+  },
+  {
+    "id": "bse",
+    "name": "BSE",
+    "symbol": "BSE",
+    "rank": 60,
+    "sector": "Sector pending verification",
+    "metrics": {},
+    "sources": [],
+    "notes": "FY2024–25 ESG indicators are awaiting individual source verification."
+  },
+  {
+    "id": "tata-motors",
+    "name": "Tata Motors",
+    "symbol": "TMCV",
+    "rank": 61,
+    "sector": "Sector pending verification",
+    "metrics": {},
+    "sources": [],
+    "notes": "FY2024–25 ESG indicators are awaiting individual source verification."
+  },
+  {
+    "id": "cholamandalam-investment-and-finance",
+    "name": "Cholamandalam Investment and Finance",
+    "symbol": "CHOLAFIN",
+    "rank": 62,
+    "sector": "Sector pending verification",
+    "metrics": {},
+    "sources": [],
+    "notes": "FY2024–25 ESG indicators are awaiting individual source verification."
+  },
+  {
+    "id": "jio-financial-services",
+    "name": "Jio Financial Services",
+    "symbol": "JIOFIN",
+    "rank": 63,
+    "sector": "Sector pending verification",
+    "metrics": {},
+    "sources": [],
+    "notes": "FY2024–25 ESG indicators are awaiting individual source verification."
+  },
+  {
+    "id": "pidilite-industries",
+    "name": "Pidilite Industries",
+    "symbol": "PIDILITIND",
+    "rank": 64,
+    "sector": "Sector pending verification",
+    "metrics": {},
+    "sources": [],
+    "notes": "FY2024–25 ESG indicators are awaiting individual source verification."
+  },
+  {
+    "id": "union-bank-of-india",
+    "name": "Union Bank of India",
+    "symbol": "UNIONBANK",
+    "rank": 65,
+    "sector": "Sector pending verification",
+    "metrics": {},
+    "sources": [],
+    "notes": "FY2024–25 ESG indicators are awaiting individual source verification."
+  },
+  {
+    "id": "bharat-heavy-electricals",
+    "name": "Bharat Heavy Electricals",
+    "symbol": "BHEL",
+    "rank": 66,
+    "sector": "Sector pending verification",
+    "metrics": {},
+    "sources": [],
+    "notes": "FY2024–25 ESG indicators are awaiting individual source verification."
+  },
+  {
+    "id": "icici-prudential-asset-management",
+    "name": "ICICI Prudential Asset Management",
+    "symbol": "ICICIAMC",
+    "rank": 67,
+    "sector": "Sector pending verification",
+    "metrics": {},
+    "sources": [],
+    "notes": "FY2024–25 ESG indicators are awaiting individual source verification."
+  },
+  {
+    "id": "tata-capital",
+    "name": "Tata Capital",
+    "symbol": "TATACAP",
+    "rank": 68,
+    "sector": "Sector pending verification",
+    "metrics": {},
+    "sources": [],
+    "notes": "FY2024–25 ESG indicators are awaiting individual source verification."
+  },
+  {
+    "id": "abb-india",
+    "name": "ABB India",
+    "symbol": "ABB",
+    "rank": 69,
+    "sector": "Sector pending verification",
+    "metrics": {},
+    "sources": [],
+    "notes": "FY2024–25 ESG indicators are awaiting individual source verification."
+  },
+  {
+    "id": "vedanta-aluminium-metal",
+    "name": "Vedanta Aluminium Metal",
+    "symbol": "VAML",
+    "rank": 70,
+    "sector": "Sector pending verification",
+    "metrics": {},
+    "sources": [],
+    "notes": "FY2024–25 ESG indicators are awaiting individual source verification."
+  },
+  {
+    "id": "varun-beverages",
+    "name": "Varun Beverages",
+    "symbol": "VBL",
+    "rank": 71,
+    "sector": "Sector pending verification",
+    "metrics": {},
+    "sources": [],
+    "notes": "FY2024–25 ESG indicators are awaiting individual source verification."
+  },
+  {
+    "id": "bosch",
+    "name": "Bosch",
+    "symbol": "BOSCHLTD",
+    "rank": 72,
+    "sector": "Sector pending verification",
+    "metrics": {},
+    "sources": [],
+    "notes": "FY2024–25 ESG indicators are awaiting individual source verification."
+  },
+  {
+    "id": "bank-of-baroda",
+    "name": "Bank of Baroda",
+    "symbol": "BANKBARODA",
+    "rank": 73,
+    "sector": "Sector pending verification",
+    "metrics": {},
+    "sources": [],
+    "notes": "FY2024–25 ESG indicators are awaiting individual source verification."
+  },
+  {
+    "id": "hitachi-energy-india",
+    "name": "Hitachi Energy India",
+    "symbol": "POWERINDIA",
+    "rank": 74,
+    "sector": "Sector pending verification",
+    "metrics": {},
+    "sources": [],
+    "notes": "FY2024–25 ESG indicators are awaiting individual source verification."
+  },
+  {
+    "id": "billionbrains-garage-ventures",
+    "name": "Billionbrains Garage Ventures",
+    "symbol": "GROWW",
+    "rank": 75,
+    "sector": "Sector pending verification",
+    "metrics": {},
+    "sources": [],
+    "notes": "FY2024–25 ESG indicators are awaiting individual source verification."
+  },
+  {
+    "id": "vodafone-idea",
+    "name": "Vodafone Idea",
+    "symbol": "IDEA",
+    "rank": 76,
+    "sector": "Sector pending verification",
+    "metrics": {},
+    "sources": [],
+    "notes": "FY2024–25 ESG indicators are awaiting individual source verification."
+  },
+  {
+    "id": "bharat-petroleum",
+    "name": "Bharat Petroleum",
+    "symbol": "BPCL",
+    "rank": 77,
+    "sector": "Sector pending verification",
+    "metrics": {},
+    "sources": [],
+    "notes": "FY2024–25 ESG indicators are awaiting individual source verification."
+  },
+  {
+    "id": "laurus-labs",
+    "name": "Laurus Labs",
+    "symbol": "LAURUSLABS",
+    "rank": 78,
+    "sector": "Sector pending verification",
+    "metrics": {},
+    "sources": [],
+    "notes": "FY2024–25 ESG indicators are awaiting individual source verification."
+  },
+  {
+    "id": "cg-power-and-industrial-solutions",
+    "name": "CG Power and Industrial Solutions",
+    "symbol": "CGPOWER",
+    "rank": 79,
+    "sector": "Sector pending verification",
+    "metrics": {},
+    "sources": [],
+    "notes": "FY2024–25 ESG indicators are awaiting individual source verification."
+  },
+  {
+    "id": "siemens",
+    "name": "Siemens",
+    "symbol": "SIEMENS",
+    "rank": 80,
+    "sector": "Sector pending verification",
+    "metrics": {},
+    "sources": [],
+    "notes": "FY2024–25 ESG indicators are awaiting individual source verification."
+  },
+  {
+    "id": "hdfc-life-insurance",
+    "name": "HDFC Life Insurance",
+    "symbol": "HDFCLIFE",
+    "rank": 81,
+    "sector": "Sector pending verification",
+    "metrics": {},
+    "sources": [],
+    "notes": "FY2024–25 ESG indicators are awaiting individual source verification."
+  },
+  {
+    "id": "indian-hotels-company",
+    "name": "Indian Hotels Company",
+    "symbol": "INDHOTEL",
+    "rank": 82,
+    "sector": "Sector pending verification",
+    "metrics": {},
+    "sources": [],
+    "notes": "FY2024–25 ESG indicators are awaiting individual source verification."
+  },
+  {
+    "id": "ltimindtree",
+    "name": "LTIMindtree",
+    "symbol": "LTM",
+    "rank": 83,
+    "sector": "Sector pending verification",
+    "metrics": {},
+    "sources": [],
+    "notes": "FY2024–25 ESG indicators are awaiting individual source verification."
+  },
+  {
+    "id": "lenskart-solutions",
+    "name": "Lenskart Solutions",
+    "symbol": "LENSKART",
+    "rank": 84,
+    "sector": "Sector pending verification",
+    "metrics": {},
+    "sources": [],
+    "notes": "FY2024–25 ESG indicators are awaiting individual source verification."
+  },
+  {
+    "id": "indian-bank",
+    "name": "Indian Bank",
+    "symbol": "INDIANB",
+    "rank": 85,
+    "sector": "Sector pending verification",
+    "metrics": {},
+    "sources": [],
+    "notes": "FY2024–25 ESG indicators are awaiting individual source verification."
+  },
+  {
+    "id": "one-97-communications",
+    "name": "One 97 Communications",
+    "symbol": "PAYTM",
+    "rank": 86,
+    "sector": "Sector pending verification",
+    "metrics": {},
+    "sources": [],
+    "notes": "FY2024–25 ESG indicators are awaiting individual source verification."
+  },
+  {
+    "id": "gail-india",
+    "name": "GAIL India",
+    "symbol": "GAIL",
+    "rank": 87,
+    "sector": "Sector pending verification",
+    "metrics": {},
+    "sources": [],
+    "notes": "FY2024–25 ESG indicators are awaiting individual source verification."
+  },
+  {
+    "id": "bajaj-holdings-investment",
+    "name": "Bajaj Holdings & Investment",
+    "symbol": "BAJAJHLDNG",
+    "rank": 88,
+    "sector": "Sector pending verification",
+    "metrics": {},
+    "sources": [],
+    "notes": "FY2024–25 ESG indicators are awaiting individual source verification."
+  },
+  {
+    "id": "apollo-hospitals-enterprise",
+    "name": "Apollo Hospitals Enterprise",
+    "symbol": "APOLLOHOSP",
+    "rank": 89,
+    "sector": "Sector pending verification",
+    "metrics": {},
+    "sources": [],
+    "notes": "FY2024–25 ESG indicators are awaiting individual source verification."
+  },
+  {
+    "id": "lodha-developers",
+    "name": "Lodha Developers",
+    "symbol": "LODHA",
+    "rank": 90,
+    "sector": "Sector pending verification",
+    "metrics": {},
+    "sources": [],
+    "notes": "FY2024–25 ESG indicators are awaiting individual source verification."
+  },
+  {
+    "id": "cummins-india",
+    "name": "Cummins India",
+    "symbol": "CUMMINSIND",
+    "rank": 91,
+    "sector": "Sector pending verification",
+    "metrics": {},
+    "sources": [],
+    "notes": "FY2024–25 ESG indicators are awaiting individual source verification."
+  },
+  {
+    "id": "polycab-india",
+    "name": "Polycab India",
+    "symbol": "POLYCAB",
+    "rank": 92,
+    "sector": "Sector pending verification",
+    "metrics": {},
+    "sources": [],
+    "notes": "FY2024–25 ESG indicators are awaiting individual source verification."
+  },
+  {
+    "id": "meesho",
+    "name": "Meesho",
+    "symbol": "MEESHO",
+    "rank": 93,
+    "sector": "Sector pending verification",
+    "metrics": {},
+    "sources": [],
+    "notes": "FY2024–25 ESG indicators are awaiting individual source verification."
+  },
+  {
+    "id": "canara-bank",
+    "name": "Canara Bank",
+    "symbol": "CANBK",
+    "rank": 94,
+    "sector": "Sector pending verification",
+    "metrics": {},
+    "sources": [],
+    "notes": "FY2024–25 ESG indicators are awaiting individual source verification."
+  },
+  {
+    "id": "zydus-lifesciences",
+    "name": "Zydus Lifesciences",
+    "symbol": "ZYDUSLIFE",
+    "rank": 95,
+    "sector": "Sector pending verification",
+    "metrics": {},
+    "sources": [],
+    "notes": "FY2024–25 ESG indicators are awaiting individual source verification."
+  },
+  {
+    "id": "lg-electronics-india",
+    "name": "LG Electronics India",
+    "symbol": "LGEINDIA",
+    "rank": 96,
+    "sector": "Sector pending verification",
+    "metrics": {},
+    "sources": [],
+    "notes": "FY2024–25 ESG indicators are awaiting individual source verification."
+  },
+  {
+    "id": "jindal-steel",
+    "name": "Jindal Steel",
+    "symbol": "JINDALSTEL",
+    "rank": 97,
+    "sector": "Sector pending verification",
+    "metrics": {},
+    "sources": [],
+    "notes": "FY2024–25 ESG indicators are awaiting individual source verification."
+  },
+  {
+    "id": "marico",
+    "name": "Marico",
+    "symbol": "MARICO",
+    "rank": 98,
+    "sector": "Sector pending verification",
+    "metrics": {},
+    "sources": [],
+    "notes": "FY2024–25 ESG indicators are awaiting individual source verification."
+  },
+  {
+    "id": "dr-reddys-laboratories",
+    "name": "Dr Reddys Laboratories",
+    "symbol": "DRREDDY",
+    "rank": 99,
+    "sector": "Sector pending verification",
+    "metrics": {},
+    "sources": [],
+    "notes": "FY2024–25 ESG indicators are awaiting individual source verification."
+  },
+  {
+    "id": "britannia-industries",
+    "name": "Britannia Industries",
+    "symbol": "BRITANNIA",
+    "rank": 100,
+    "sector": "Sector pending verification",
+    "metrics": {},
+    "sources": [],
+    "notes": "FY2024–25 ESG indicators are awaiting individual source verification."
+  }
+]
