@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Companies | ESG India Intelligence</title>
+<style>
+:root{--navy:#102b3a;--green:#b6f2cd;--muted:#607785}*{box-sizing:border-box}body{margin:0;font-family:Arial,sans-serif;background:#f4f7f9;color:#183447}header{background:var(--navy);color:white;padding:22px max(18px,calc((100vw - 1100px)/2))}nav{display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap}nav a{color:#d3e2e8;text-decoration:none;margin-left:12px;font-size:14px}main{max-width:1100px;margin:auto;padding:32px 18px}h1{font-size:clamp(30px,5vw,44px);margin-bottom:8px}p{line-height:1.6}.sub{color:var(--muted)}.controls{display:flex;gap:12px;flex-wrap:wrap;margin:26px 0}input,select{font:inherit;padding:13px;border:1px solid #c9d5dc;border-radius:9px;background:white;min-height:48px}input{flex:2;min-width:220px}select{flex:1;min-width:160px}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:16px}.card{background:white;border:1px solid #dfe7ec;border-radius:13px;padding:22px;box-shadow:0 3px 12px #00000008}.card h2{font-size:20px;margin:12px 0 6px}.tag{font-size:12px;color:#117550;font-weight:bold}.ticker{color:var(--muted);font-size:13px}.button{display:inline-block;border:0;border-radius:8px;background:var(--navy);color:white;padding:11px 15px;margin-top:12px;text-decoration:none;cursor:pointer;font:inherit}.back{background:#e4f2e9;color:#174534}.notice{background:#e9f4ef;border-left:4px solid #17835b;padding:14px;border-radius:5px;margin:22px 0}.metrics{display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:12px}.metric{background:#f5f8fa;padding:15px;border-radius:9px}.metric strong{display:block;margin-top:9px}.hidden{display:none}footer{text-align:center;padding:30px;color:var(--muted);font-size:13px}a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible{outline:3px solid #2eaa75;outline-offset:2px}
+</style>
+</head>
+<body>
+<header><nav><strong>🌿 ESG INDIA</strong><div><a href="index.html">Home</a><a href="companies.html">Companies</a></div></nav></header>
+<main>
+<section id="directory"><h1>Indian Company Directory</h1><p class="sub">Explore listed Indian companies and their ESG disclosure profiles.</p><div class="notice">Company names, sectors and tickers are provided for navigation. ESG metrics are not yet populated or verified.</div><div class="controls"><input id="search" type="search" placeholder="Search company or NSE symbol" aria-label="Search companies"><select id="sector" aria-label="Filter by sector"><option value="all">All sectors</option></select></div><p id="count" class="sub" aria-live="polite"></p><div id="cards" class="grid"></div></section>
+<section id="profile" class="hidden"><button class="button back" id="back">← All companies</button><h1 id="profileName"></h1><p id="profileMeta" class="sub"></p><div class="notice">ESG values are not available yet. We will populate these fields only from cited company disclosures, with reporting year, unit and source.</div><h2>Environmental</h2><div class="metrics"><div class="metric">Scope 1 emissions<strong>Not available</strong></div><div class="metric">Scope 2 emissions<strong>Not available</strong></div><div class="metric">Energy consumption<strong>Not available</strong></div><div class="metric">Water consumption<strong>Not available</strong></div></div><h2>Social</h2><div class="metrics"><div class="metric">Women in workforce<strong>Not available</strong></div><div class="metric">Employee safety<strong>Not available</strong></div></div><h2>Governance</h2><div class="metrics"><div class="metric">Independent directors<strong>Not available</strong></div><div class="metric">Board composition<strong>Not available</strong></div></div><h2>Data provenance</h2><p class="sub">Reporting year: Not available · BRSR source: Not yet linked · ESG score: Not calculated</p></section>
+</main><footer>© 2026 ESG India Intelligence · Independent research prototype · Not investment advice</footer>
+<script>
+const companies=[
+{name:'Reliance Industries',ticker:'RELIANCE',sector:'Diversified'},
+{name:'Tata Consultancy Services',ticker:'TCS',sector:'IT Services'},
+{name:'Infosys',ticker:'INFY',sector:'IT Services'},
+{name:'HDFC Bank',ticker:'HDFCBANK',sector:'Banking'},
+{name:'ICICI Bank',ticker:'ICICIBANK',sector:'Banking'},
+{name:'Tata Steel',ticker:'TATASTEEL',sector:'Metals'},
+{name:'ITC',ticker:'ITC',sector:'FMCG'},
+{name:'Bharti Airtel',ticker:'BHARTIARTL',sector:'Telecom'},
+{name:'Mahindra & Mahindra',ticker:'M&M',sector:'Automotive'},
+{name:'NTPC',ticker:'NTPC',sector:'Power'}
+];
+const $=id=>document.getElementById(id);
+const sector=$('sector');[...new Set(companies.map(c=>c.sector))].sort().forEach(s=>{const o=document.createElement('option');o.value=s;o.textContent=s;sector.append(o)});
+function render(){const q=$('search').value.toLowerCase().trim(),s=sector.value;const matches=companies.filter(c=>(s==='all'||c.sector===s)&&(c.name.toLowerCase().includes(q)||c.ticker.toLowerCase().includes(q)));$('cards').replaceChildren();matches.forEach(c=>{const card=document.createElement('article');card.className='card';const tag=document.createElement('span');tag.className='tag';tag.textContent=c.sector.toUpperCase();const h=document.createElement('h2');h.textContent=c.name;const t=document.createElement('p');t.className='ticker';t.textContent='NSE: '+c.ticker;const a=document.createElement('a');a.className='button';a.href='#'+encodeURIComponent(c.ticker);a.textContent='View ESG profile →';card.append(tag,h,t,a);$('cards').append(card)});$('count').textContent=matches.length+' companies found';if(!matches.length){const p=document.createElement('p');p.textContent='No companies match your search.';$('cards').append(p)}}
+function route(){const ticker=decodeURIComponent(location.hash.slice(1));const c=companies.find(x=>x.ticker===ticker);$('directory').classList.toggle('hidden',!!c);$('profile').classList.toggle('hidden',!c);if(c){$('profileName').textContent=c.name;$('profileMeta').textContent='NSE: '+c.ticker+' · Sector: '+c.sector;window.scrollTo(0,0)}}
+$('search').addEventListener('input',render);sector.addEventListener('change',render);$('back').addEventListener('click',()=>{history.pushState(null,'',location.pathname);route();window.scrollTo(0,0)});window.addEventListener('hashchange',route);window.addEventListener('popstate',route);render();route();
+</script>
+</body></html>
