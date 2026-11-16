@@ -357,9 +357,15 @@ function createCompanyCard(company) {
 
   card.className = "company-card";
 
+  if (company.id === "reliance-industries") {
+  card.href = "reliance.html";
+} else if (company.id === "tata-consultancy-services") {
+  card.href = "tcs.html";
+} else {
   card.href =
     "company.html?id=" +
     encodeURIComponent(company.id);
+}
 
   const rank = document.createElement("div");
   rank.className = "company-rank";
